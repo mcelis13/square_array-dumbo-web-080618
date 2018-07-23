@@ -15,4 +15,4 @@ def square_array_collect(array)
 end
 
 myArray = [2,3]
-square_array_collect(myArray)
+puts square_array_collect(myArray)
