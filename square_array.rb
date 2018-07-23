@@ -12,7 +12,7 @@ end
 def square_array_collect(array){
   newArray = array.collect {|index| index ** 2}
   return newArray;
-}
+end
 
 myArray = [2,3]
 square_array_collect(myArray)
