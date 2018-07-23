@@ -8,11 +8,12 @@ def square_array(array)
   return newArray
 end
 
+#works
 # array.collect will save the newArray if you assign it to a variable
-def square_array_collect(array)
-  newArray = array.collect {|index| index ** 2}
-  return newArray;
-end
+#def square_array_collect(array)
+#  newArray = array.collect {|index| index ** 2}
+#  return newArray;
+#end
 
-myArray = [2,3]
-puts square_array_collect(myArray)
+#myArray = [2,3]
+#puts square_array_collect(myArray)
