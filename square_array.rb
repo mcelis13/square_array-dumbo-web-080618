@@ -13,3 +13,5 @@ def square_array(array){
   newArray = array.collect {|index| index ** 2}
   return newArray;
 }
+
+square_array(2)
