@@ -14,4 +14,4 @@ def square_array(array){
   return newArray;
 }
 
-square_array(2)
+square_array([2,3])
