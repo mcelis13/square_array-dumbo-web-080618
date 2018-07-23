@@ -15,5 +15,5 @@ def square_array_collect(array){
   end
   return newArray;
 }
-
-square_array_collect([2,3])
+myArray = [2,3]
+square_array_collect()
