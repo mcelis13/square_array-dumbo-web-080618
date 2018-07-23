@@ -10,7 +10,10 @@ end
 
 # array.collect will save the newArray if you assign it to a variable
 def square_array(array){
-  newArray = array.collect {|index| index ** 2}
+  newArray = array.collect do |index|
+    index ** 2
+  end
+  end
   return newArray;
 }
 
